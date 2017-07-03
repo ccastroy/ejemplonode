@@ -1,0 +1,21 @@
+{
+  "name": "ejemplo",
+  "version": "1.0.0",
+  "description": "ejemplo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "lint": "eslint . --ext .js",
+    "start": "npm run lint && npm run test  && node index.js"
+  },
+  "author": "yo",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "jasmine": "^2.6.0",
+    "jasmine-co": "^1.2.2"
+  }
+}
